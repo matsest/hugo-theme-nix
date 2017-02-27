@@ -42,6 +42,9 @@
 					{{ with .Site.Params.LinkedInID }}
 					<a href="http://linkedin.com/in/{{.}}" title="LinkedIn"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
 					{{ end }}
+					{{ with .Site.Params.lastfmID}}
+					<a href="https://www.last.fm/user/{{.}}" title="LastFM"><i class="fa fa-lastfm fa-3x" aria-hidden="true"></i></a>
+					{{ end }}
 					{{ with .Site.Params.Email }}
 					<a href="mailto:{{.}}" title="Email"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
 					{{ end }}
