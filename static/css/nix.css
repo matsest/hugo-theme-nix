@@ -104,7 +104,6 @@ i {
 
 .post-comments {
 	padding-top: 10px;
-	border-top-style: solid;
 }
 
 .wrapper {
@@ -114,7 +113,6 @@ i {
 }
 
 .footer {
-	background-color: #F5F5F5;
 	display: block;
 	width: 100%;
 	padding: 10px;
