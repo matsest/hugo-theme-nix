@@ -1,10 +1,14 @@
 <footer class="footer text-center">
-<p>Copyright &copy; {{ .Now.Format "2006" }} {{ .Site.Params.Name }} <br>
-<span class="credit">
-	Powered by 
-	<a target="_blank" href="https://gohugo.io">Hugo</a>
-	and modified 
-	<a target="_blank" href="https://github.com/matsest/hugo-theme-nix/">Nix</a> theme.
-</span>
-</p>
+        <a href="{{ .Site.BaseURL }}post/index.xml" type="application/rss+xml"
+                                                    target="_blank">
+          <i class="fa fa-rss"></i>
+        </a>
+    <p>Copyright &copy; {{ .Now.Format "2006" }} {{ .Site.Params.Name }} <br>
+    <span class="credit">
+    	Powered by 
+    	<a target="_blank" href="https://gohugo.io">Hugo</a>
+    	and modified 
+    	<a target="_blank" href="https://github.com/matsest/hugo-theme-nix/">Nix</a> theme.
+    </span>
+    </p>
 </footer>
